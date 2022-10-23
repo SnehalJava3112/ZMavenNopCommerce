@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-14T09:09:40 IST" name="Default suite" finished-at="2022-10-14T09:10:14 IST" duration-ms="34344">
+    <groups>
+    </groups>
+    <test started-at="2022-10-14T09:09:40 IST" name="Default test" finished-at="2022-10-14T09:10:14 IST" duration-ms="34344">
+      <class name="com.NopComm.TestLogin.TestClass">
+        <test-method is-config="true" signature="browserOpening()[pri:0, instance:com.NopComm.TestLogin.TestClass@661972b0]" started-at="2022-10-14T09:09:40 IST" name="browserOpening" finished-at="2022-10-14T09:09:50 IST" duration-ms="10073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserOpening -->
+        <test-method signature="titleVerify()[pri:1, instance:com.NopComm.TestLogin.TestClass@661972b0]" started-at="2022-10-14T09:09:50 IST" name="titleVerify" finished-at="2022-10-14T09:09:53 IST" duration-ms="3134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerify -->
+        <test-method signature="chkBoxVerify()[pri:2, instance:com.NopComm.TestLogin.TestClass@661972b0]" started-at="2022-10-14T09:09:53 IST" name="chkBoxVerify" finished-at="2022-10-14T09:09:55 IST" duration-ms="2041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkBoxVerify -->
+        <test-method signature="loginVerify()[pri:3, instance:com.NopComm.TestLogin.TestClass@661972b0]" started-at="2022-10-14T09:09:55 IST" name="loginVerify" finished-at="2022-10-14T09:10:07 IST" duration-ms="11230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginVerify -->
+        <test-method signature="logoVerify()[pri:0, instance:com.NopComm.TestLogin.TestClass@661972b0]" started-at="2022-10-14T09:10:07 IST" name="logoVerify" finished-at="2022-10-14T09:10:12 IST" depends-on-methods="com.NopComm.TestLogin.TestClass.loginVerify" duration-ms="5297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoVerify -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.NopComm.TestLogin.TestClass@661972b0]" started-at="2022-10-14T09:10:12 IST" name="closingBrowser" finished-at="2022-10-14T09:10:14 IST" duration-ms="2515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- com.NopComm.TestLogin.TestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
